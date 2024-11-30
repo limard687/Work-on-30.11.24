@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+
+namespace Work_1___Optimized_program
+{
+    internal class Program
+    {
+      static void Main(string[] args)
+        {
+            string text = "Это пример текста. Текст должен быть проанализирован. Это важно.";
+            Dictionary<string, int> wordCounts = WordFrequency(text);
+
+            foreach (var item in wordCounts)
+            {
+                //Здесь я заменил конкатенацию строк на интерполяцию(использование `$"{item.Key}: {item.Value}"`). Это сделало код более читаемым и менее загроможденным.
+                Console.WriteLine($"{item.Key}: {item.Value}");
+            }
+        }
+
+        //В методе `WordFrequency` я изменил способ разделения строки.
+        static Dictionary<string, int> WordFrequency(string text)
+        {
+            //Вместо того чтобы использовать только пробел в `Split`, теперь используются массив символов, что позволяет учитывать точки, восклицательные и вопросительные знаки.
+            //Также добавлен `StringSplitOptions.RemoveEmptyEntries`, что убирает пустые строки.
+            string[] words = text.ToLower().Split(new char[] { ' ', '.', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
+            Dictionary<string, int> wordCount = new Dictionary<string, int>();
+
+            foreach (string word in words)
+            {
+                //Вместо двойной проверки наличия ключа и его последующего получения, теперь используется метод `TryGetValue`, который делает код более компактным и эффективным.
+                if (wordCount.TryGetValue(word, out int count))
+                {
+                    wordCount[word] = count + 1;
+                }
+                else
+                {
+                    wordCount[word] = 1;
+                }
+            }
+
+            //Удалил лишний шаг создания нового словаря `sortedResult`, так как изначально создаваемый `wordCount` уже содержит необходимые данные, и его можно возвращать напрямую.
+            return wordCount;
+        }
+        
+        //Дополнительное задание - Метод LINQ:
+        /*
+        static void Main(string[] args)
+        {
+            string text = "Это пример текста. Текст должен быть проанализирован. Это важно.";
+            Dictionary<string, int> wordCounts = WordFrequency(text);
+
+            foreach (var item in wordCounts)
+            {
+                Console.WriteLine($"{item.Key}: {item.Value}");
+            }
+        }
+
+        static Dictionary<string, int> WordFrequency(string text)
+        {
+            return text
+                .ToLower()
+                .Split(new char[] { ' ', '.', '!', '?' }, StringSplitOptions.RemoveEmptyEntries)
+                .GroupBy(word => word)
+                .ToDictionary(group => group.Key, group => group.Count());
+        }*/
+    }
+}
