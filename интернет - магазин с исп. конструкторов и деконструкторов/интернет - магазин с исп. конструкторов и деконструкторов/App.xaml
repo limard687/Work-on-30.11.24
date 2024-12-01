@@ -1,0 +1,9 @@
+﻿<Application x:Class="интернет___магазин_с_исп.конструкторов_и_деконструкторов.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:интернет___магазин_с_исп.конструкторов_и_деконструкторов"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
