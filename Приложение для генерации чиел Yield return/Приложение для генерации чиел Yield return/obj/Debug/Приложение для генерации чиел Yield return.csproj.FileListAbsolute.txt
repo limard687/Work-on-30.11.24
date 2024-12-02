@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\bin\Debug\Приложение для генерации чиел Yield return.exe.config
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\bin\Debug\Приложение для генерации чиел Yield return.exe
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\bin\Debug\Приложение для генерации чиел Yield return.pdb
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\Приложение для генерации чиел Yield return.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\Приложение для генерации чиел Yield return_MarkupCompile.cache
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\Приложение для генерации чиел Yield return_MarkupCompile.lref
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\Приложение для генерации чиел Yield return.g.resources
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\Приложение_для_генерации_чиел_Yield_return.Properties.Resources.resources
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\Приложение для генерации чиел Yield return.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\Приложение для генерации чиел Yield return.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\Приложение для генерации чиел Yield return.exe
+C:\Users\User\source\repos\Приложение для генерации чиел Yield return\Приложение для генерации чиел Yield return\obj\Debug\Приложение для генерации чиел Yield return.pdb

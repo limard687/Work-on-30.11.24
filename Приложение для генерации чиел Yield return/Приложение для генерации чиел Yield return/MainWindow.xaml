@@ -1,0 +1,18 @@
+﻿<Window x:Class="Приложение_для_генерации_чиел_Yield_return.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Приложение_для_генерации_чиел_Yield_return"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="FromTextBox" HorizontalAlignment="Center" Margin="0,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="36"/>
+        <TextBox x:Name="ToTextBox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="36" Margin="0,181,0,0"/>
+        <Button Content="Генерация чисел" HorizontalAlignment="Center" Margin="0,263,0,0" VerticalAlignment="Top" Height="36" Width="120" Click="GenerateButton_Click"/>
+        <ListBox x:Name="NumbersListBox" Margin="47,67,562,73"/>
+        <Label Content="First number" HorizontalAlignment="Left" Margin="260,130,0,0" VerticalAlignment="Top"/>
+        <Label Content="last number" HorizontalAlignment="Left" Margin="260,186,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
